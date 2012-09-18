@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.date = "2012-09-18"
   s.description = "ReportGrid Ruby Client Library\n"
   s.email = ["kris [at] reportgrid [dot] com"]
-  s.files = ["Rakefile", "README.rdoc", "lib/reportgrid.rb", "test/test_reportgrid.rb"]
+  s.files = ["reportgrid/ruby/Rakefile", "reportgrid/ruby/README.rdoc", "reportgrid/ruby/lib/reportgrid.rb", "reportgrid/ruby/test/test_reportgrid.rb"]
   s.homepage = "http://api.reportgrid.com/ruby"
-  s.require_paths = ["lib"]
+  s.require_paths = ["reportgrid/ruby/lib"]
   s.rubyforge_project = "reportgrid"
   s.rubygems_version = "1.8.24"
   s.summary = "Ruby client library for ReportGrid (http://www.reportgrid.com)"
